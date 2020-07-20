@@ -8,6 +8,7 @@ const colors = {
 
 const fontFamilies = {
   heading: "'Libre Baskerville', georgia, times, serif",
+  links: "'Libre Baskerville', georgia, times, serif",
   body: "Helvetica, Arial, sans-serif",
 }
 
@@ -19,6 +20,11 @@ export default {
       fontWeight: 700,
       fontFamily: fontFamilies.heading,
       marginTop: "20px",
+    },
+    navlink: {
+      color: colors.charcoal,
+      fontSize: "14px",
+      fontFamily: fontFamilies.links,
     },
   },
   colors: {

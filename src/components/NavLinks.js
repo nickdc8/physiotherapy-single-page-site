@@ -1,24 +1,29 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "@emotion/styled"
+import { color, textStyle } from "styled-system"
+import theme from "../theme"
 
-const LinkStyles = {
-  color: "black",
-  textDecoration: "none",
-  margin: "0 8px",
-  padding: "0.25rem",
-  fontSize: "16px",
-  display: "block",
-  borderBottom: "2px solid transparent",
-}
+const LinkStyle = styled(Link)`
+  ${color}
+  ${textStyle}
+  margin-left: 40px;
+  padding: 0.25rem;
+`
 
 const activeStyles = {
-  borderBottom: "2px solid red",
+  borderBottom: `2px solid ${theme.colors.calico}`,
 }
 
 const NavLink = ({ children, to }) => (
-  <Link to={to} style={LinkStyles} activeStyle={activeStyles}>
+  <LinkStyle
+    color="charcoal"
+    textStyle="navlink"
+    to={to}
+    activeStyle={activeStyles}
+  >
     {children}
-  </Link>
+  </LinkStyle>
 )
 
 export default NavLink
