@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import styled from "@emotion/styled"
 import Helmet from "react-helmet"
 import { Global, css } from "@emotion/core"
+import { ThemeProvider } from "emotion-theming"
 import theme from "../theme"
 
 import "../styles/styles.css"
@@ -28,26 +29,32 @@ const Container = styled.div`
 
 const Layout = ({ children }) => {
   return (
-    <Wrapper>
-      <Global
-        styles={css`
-          div {
-            background: ${theme.colors.floralWhite};
-          }
-        `}
-      />
-      <Helmet>
-        <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans"
-          rel="stylesheet"
+    <ThemeProvider theme={theme}>
+      <Wrapper>
+        <Global
+          styles={css`
+            div {
+              background: ${theme.colors.floralWhite};
+            }
+          `}
         />
-      </Helmet>
-      <Container>
-        <NavBar />
-        <Content>{children}</Content>
-        <Footer />
-      </Container>
-    </Wrapper>
+        <Helmet>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans"
+            rel="stylesheet"
+          />
+        </Helmet>
+        <Container>
+          <NavBar />
+          <Content>{children}</Content>
+          <Footer />
+        </Container>
+      </Wrapper>
+    </ThemeProvider>
   )
 }
 

@@ -2,6 +2,7 @@ import React from "react"
 import NavLink from "./NavLinks"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
+import logo from "../images/logo.svg"
 
 const Nav = styled.div`
   display: flex;
@@ -23,7 +24,7 @@ const NavBar = () => {
   return (
     <Nav>
       <Link to="/">
-        <h4>Logo</h4>
+        <img src={logo} alt="" />
       </Link>
       <NavLinks>
         <NavLink to="/">Home</NavLink>
