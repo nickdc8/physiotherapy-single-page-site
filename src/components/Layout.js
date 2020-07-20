@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
       <Global
         styles={css`
           div {
-            background: ${theme.colors.FFFDF6};
+            background: ${theme.colors.floralWhite};
           }
         `}
       />
