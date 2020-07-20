@@ -3,6 +3,8 @@ import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
 import styled from "@emotion/styled"
 import Helmet from "react-helmet"
+import { Global, css } from "@emotion/core"
+import theme from "../theme"
 
 import "../styles/styles.css"
 import "../styles/reset.css"
@@ -27,6 +29,13 @@ const Container = styled.div`
 const Layout = ({ children }) => {
   return (
     <Wrapper>
+      <Global
+        styles={css`
+          div {
+            background: ${theme.colors.FFFDF6};
+          }
+        `}
+      />
       <Helmet>
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans"

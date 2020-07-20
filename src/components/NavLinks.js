@@ -16,7 +16,7 @@ const activeStyles = {
 }
 
 const NavLink = ({ children, to }) => (
-  <Link to={to} style={LinkStyles} activeStyles={activeStyles}>
+  <Link to={to} style={LinkStyles} activeStyle={activeStyles}>
     {children}
   </Link>
 )
