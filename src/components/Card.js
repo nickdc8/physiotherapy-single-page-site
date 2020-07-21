@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
 import { BodyCopy } from "../Typography"
+import { color, textStyle, space, typography } from "styled-system"
 
 const Container = styled.div`
   border-radius: 4px;
@@ -12,15 +13,25 @@ const Container = styled.div`
 `
 
 const Image = styled.img`
-  margin: 16px 0 24px;
+  margin: 16px 0 16px;
 `
 
-const Card = ({ data }) => {
+const SubHeader = styled.h2`
+  ${textStyle}
+  ${space}
+  ${color}
+  ${typography}
+`
+
+const Card = ({ iconUrl, content, header }) => {
   return (
     <Container>
-      <Image src={data.iconUrl} alt="" />
+      <Image src={iconUrl} alt="" />
+      <SubHeader textStyle="subHeader" textAlign="center" mb="12px">
+        {header}
+      </SubHeader>
       <BodyCopy textStyle="bodyCopy" textAlign="center">
-        {data.content}
+        {content}
       </BodyCopy>
     </Container>
   )
