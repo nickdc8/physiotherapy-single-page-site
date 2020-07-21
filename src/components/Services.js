@@ -4,6 +4,8 @@ import theme from "../theme"
 import Wrapper from "./Wrapper"
 import { Trafalger } from "../Typography"
 import Card from "./Card"
+import careIcon from "../images/careIcon.svg"
+import carIcon from "../images/carIcon.svg"
 
 const Container = styled.div`
   background: ${theme.colors.parchment};
@@ -22,38 +24,30 @@ const Grid = styled.div`
   }
 `
 
-const cardContent = [
-  {
-    id: 1,
-    iconUrl: "../../static/carIcon.svg",
-    content:
-      "I provide mobile physiotherapy in cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
-  },
-  {
-    id: 2,
-    iconUrl: "../../static/carIcon.svg",
-    content:
-      "I provide home-based physiotherapy for the elderly, delivering comprehensive treatment and education for both patients and their wider family. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.",
-  },
-  {
-    id: 3,
-    iconUrl: "../../static/carIcon.svg",
-    content:
-      "Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
-  },
-]
-
 const Services = () => {
-  const cardItem = cardContent.map(data => {
-    return <Card key={data.id} data={data} />
-  })
   return (
     <Container>
       <Wrapper>
         <Trafalger textStyle="trafalger" textAlign="center" mb="56px">
           Services
         </Trafalger>
-        <Grid>{cardItem}</Grid>
+        <Grid>
+          <Card
+            iconUrl={carIcon}
+            header="Mobile Physio"
+            content="I provide mobile physiotherapy, meaning that you can undergo a treatment plan tailored to your needs from the comfort of your own home. Why not get in touch with us and save yourself the stress of travelling."
+          />
+          <Card
+            iconUrl={careIcon}
+            header="Elderly & Children Care"
+            content="I also offer physiotherapy for the elderly in residential and nursing homes along with sheltered accommodations, specialising in both individual physiotherapy and group exercise classes."
+          />
+          <Card
+            iconUrl={careIcon}
+            header="Another Service Here"
+            content="Justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+          />
+        </Grid>
       </Wrapper>
     </Container>
   )

@@ -1,4 +1,5 @@
 const colors = {
+  sienna: "#CD874B",
   calico: "#E3BC9B",
   parchment: "#F5E9DF",
   floralWhite: "#FFFDF6",
@@ -28,12 +29,18 @@ export default {
       fontWeight: 400,
       fontFamily: fontFamilies.heading,
     },
+    subHeader: {
+      color: colors.charcoal,
+      fontFamily: fontFamilies.heading,
+      fontSize: "15px",
+      lineHeight: "22px",
+    },
     bodyCopy: {
       color: colors.charcoal,
       fontSize: "14px",
       fontWeight: 400,
       fontFamily: fontFamilies.body,
-      lineHeight: "180%",
+      lineHeight: "170%",
       marginBottom: "16px",
     },
     navlink: {

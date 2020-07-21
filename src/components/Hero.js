@@ -13,7 +13,7 @@ const Container = styled.div`
   background-size: cover;
   background-position: 0px 30px;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 460px;
 
   @media (max-width: 768px) {
     background-position: -145px 0px;
