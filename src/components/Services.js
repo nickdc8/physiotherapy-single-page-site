@@ -25,19 +25,19 @@ const Grid = styled.div`
 const cardContent = [
   {
     id: 1,
-    iconUrl: "/static/carIcon.svg",
+    iconUrl: "../../static/carIcon.svg",
     content:
       "I provide mobile physiotherapy in cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
   },
   {
     id: 2,
-    iconUrl: "/static/care.svg",
+    iconUrl: "../../static/care.svg",
     content:
       "I provide home-based physiotherapy for the elderly, delivering comprehensive treatment and education for both patients and their wider family. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.",
   },
   {
     id: 3,
-    iconUrl: "/static/carIcon.svg",
+    iconUrl: "../images/carIcon.svg",
     content:
       "Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
   },
