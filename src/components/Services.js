@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "@emotion/styled"
-import theme from "../theme"
 import Wrapper from "./Wrapper"
 import { Trafalger } from "../Typography"
 import Card from "./Card"
@@ -9,7 +8,6 @@ import carIcon from "../images/carIcon.svg"
 import Line from "./Line"
 
 const Container = styled.div`
-  background: ${theme.colors.parchment};
   padding: 80px 16px;
 `
 

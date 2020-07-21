@@ -3,6 +3,7 @@ import { Canon } from "../Typography"
 import styled from "@emotion/styled"
 import heroImage from "../images/hero-image.png"
 import Wrapper from "./Wrapper"
+import theme from "../theme"
 
 const Container = styled.div`
   display: flex;
@@ -11,9 +12,9 @@ const Container = styled.div`
   align-items: center;
   background-image: url(${heroImage});
   background-size: cover;
-  background-position: 0px 30px;
+  background-position: 0px -30px;
   background-repeat: no-repeat;
-  height: 420px;
+  height: 400px;
 
   @media (max-width: 768px) {
     background-position: -145px 0px;
@@ -29,6 +30,7 @@ const Subhead = styled.p`
   line-height: 1.3rem;
   font-weight: 300;
   font-size: 1rem;
+  font-family: ${theme.fonts.sansSerif};
 `
 
 const Hero = () => {

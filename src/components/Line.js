@@ -6,7 +6,7 @@ const Line = props => {
     margin: props.align,
     background: `${theme.colors.calico}`,
     height: 4,
-    width: 100,
+    width: 80,
   }
   return <div style={styles}></div>
 }

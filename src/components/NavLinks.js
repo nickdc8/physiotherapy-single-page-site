@@ -10,6 +10,9 @@ const LinkStyle = styled(Link)`
   margin-left: 24px;
   padding: 0.25rem;
   transition: 0.3s;
+  @media (max-width: 520px) {
+    margin-left: 0px;
+  }
 
   &:hover {
     color: ${theme.colors.dolphin};

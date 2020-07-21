@@ -13,12 +13,19 @@ const Nav = styled.div`
   width: 100%;
   max-width: 1200px;
   padding: 0 16px;
+  @media (max-width: 520px) {
+    flex-direction: column;
+    height: fit-content;
+    padding: 40px 0 0;
+  }
 `
 
 const NavLinks = styled.ul`
   display: flex;
-  @media (max-width: 700px) {
-    display: none;
+  @media (max-width: 520px) {
+    margin-top: 32px;
+    width: 240px;
+    justify-content: space-between;
   }
 `
 

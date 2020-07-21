@@ -8,11 +8,11 @@ import Line from "./Line"
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 80px;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
   padding: 0 16px;
-  margin-top: 60px;
-  margin-bottom: 90px;
+  margin-top: 72px;
+  margin-bottom: 40px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
@@ -20,7 +20,6 @@ const Container = styled.div`
 
 const ImageContainer = styled.div`
   display: flex;
-  margin-top: 56px;
   justify-content: flex-start;
   @media (max-width: 768px) {
     justify-content: center;
@@ -33,8 +32,9 @@ const Image = styled.img`
 `
 
 const TextContainer = styled.div`
+  max-width: 80%;
   @media (max-width: 768px) {
-    width: 100%;
+    max-width: 100%;
     padding: 0;
   }
 `
@@ -43,12 +43,12 @@ const About = () => {
   return (
     <div id="about">
       <Wrapper>
+        <Trafalger textStyle="trafalger" mb="24px" textAlign="center">
+          About me
+        </Trafalger>
+        <Line align="0 auto" />
         <Container>
           <TextContainer>
-            <Trafalger textStyle="trafalger" mb="24px" textAlign="left">
-              About me
-            </Trafalger>
-            <Line align="0px 0 24px" />
             <BodyCopy textStyle="bodyCopy">
               Alison Stuart is a Chartered Physiotherapist with over 25 years of
               experience. She has a wealth of experience and has previously

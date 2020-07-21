@@ -51,6 +51,14 @@ export default {
       lineHeight: "170%",
       marginBottom: "18px",
     },
+    copyright: {
+      color: colors.charcoal,
+      fontSize: "12px",
+      fontWeight: 400,
+      fontFamily: fontFamilies.body,
+      lineHeight: "170%",
+      marginBottom: "18px",
+    },
     navlink: {
       color: colors.charcoal,
       fontSize: "14px",
