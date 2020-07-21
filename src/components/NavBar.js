@@ -8,14 +8,15 @@ const Nav = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
-  height: 120px;
+  margin: 20px auto;
+  height: 80px;
   width: 100%;
   max-width: 1200px;
   padding: 0 16px;
   @media (max-width: 520px) {
     flex-direction: column;
     height: fit-content;
+    margin: 0 auto;
     padding: 40px 0 0;
   }
 `

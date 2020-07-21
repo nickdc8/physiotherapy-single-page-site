@@ -15,7 +15,7 @@ const LinkStyle = styled(Link)`
   }
 
   &:hover {
-    color: ${theme.colors.dolphin};
+    color: ${theme.colors.sienna};
   }
 `
 

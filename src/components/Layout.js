@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
       <Global
         styles={css`
           div {
-            background: ${theme.colors.whiteLinen};
+            background: ${theme.colors.floralWhite};
           }
         `}
       />

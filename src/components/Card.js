@@ -2,11 +2,12 @@ import React from "react"
 import styled from "@emotion/styled"
 import { BodyCopy } from "../Typography"
 import { color, textStyle, space, typography } from "styled-system"
+import theme from "../theme"
 
 const Container = styled.div`
   border-radius: 4px;
   padding: 24px 24px;
-  background: rgba(255, 255, 255, 0.4);
+  background: ${theme.colors.whiteLinen};
   display: flex;
   flex-direction: column;
   align-content: center;

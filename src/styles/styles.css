@@ -5,3 +5,7 @@ a {
 a:hover {
   color: #E99C5A;
 }
+
+html {
+  scroll-behavior: smooth;
+}

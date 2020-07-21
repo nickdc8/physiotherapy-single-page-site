@@ -1,7 +1,7 @@
 import React from "react"
 import Wrapper from "./Wrapper"
 import { Trafalger } from "../Typography"
-import aboutImage from "../images/alison-about.jpg"
+import aboutImage from "../images/alison-about.png"
 import styled from "@emotion/styled"
 import { BodyCopy } from "../Typography"
 import Line from "./Line"

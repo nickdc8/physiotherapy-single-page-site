@@ -19,8 +19,9 @@ export default {
   textStyles: {
     canon: {
       color: colors.charcoal,
-      fontSize: "40px",
+      fontSize: "38px",
       fontWeight: 400,
+      lineHeight: "48px",
       fontFamily: fontFamilies.heading,
     },
     trafalger: {
@@ -62,7 +63,7 @@ export default {
     navlink: {
       color: colors.charcoal,
       fontSize: "14px",
-      fontFamily: fontFamilies.links,
+      fontFamily: fontFamilies.body,
     },
   },
   colors: {

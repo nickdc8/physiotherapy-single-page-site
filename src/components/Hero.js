@@ -2,8 +2,12 @@ import React from "react"
 import { Canon } from "../Typography"
 import styled from "@emotion/styled"
 import heroImage from "../images/hero-image.png"
-import Wrapper from "./Wrapper"
 import theme from "../theme"
+
+const Wrapper = styled.div`
+  margin: 0 auto;
+  max-width: 960px;
+`
 
 const Container = styled.div`
   display: flex;
@@ -11,10 +15,11 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   background-image: url(${heroImage});
-  background-size: cover;
-  background-position: 0px -30px;
+  background-position: 40% 100%;
   background-repeat: no-repeat;
-  height: 400px;
+  background-size: cover;
+  height: 440px;
+  margin: 0 auto;
 
   @media (max-width: 768px) {
     background-position: -145px 0px;
@@ -27,17 +32,18 @@ const Container = styled.div`
 
 const Subhead = styled.p`
   text-align: center;
-  line-height: 1.3rem;
+  line-height: 1.6rem;
   font-weight: 300;
   font-size: 1rem;
   font-family: ${theme.fonts.sansSerif};
+  padding: 0 16px;
 `
 
 const Hero = () => {
   return (
     <Wrapper>
       <Container>
-        <Canon mb="20px" textStyle="canon" textAlign="center">
+        <Canon mt="20px" mb="16px" textStyle="canon" textAlign="center">
           Your health in expert hands
         </Canon>
         <Subhead>
