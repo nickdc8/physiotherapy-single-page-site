@@ -8,8 +8,11 @@ const Nav = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
+  margin: 0 auto;
   height: 120px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 16px;
 `
 
 const NavLinks = styled.ul`

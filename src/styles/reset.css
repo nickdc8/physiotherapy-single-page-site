@@ -163,3 +163,7 @@ a {
 a {
   text-shadow: none;
 }
+
+* {
+  box-sizing: border-box;
+}

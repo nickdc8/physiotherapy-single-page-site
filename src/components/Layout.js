@@ -10,12 +10,6 @@ import theme from "../theme"
 import "../styles/styles.css"
 import "../styles/reset.css"
 
-const Wrapper = styled.div`
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
-`
-
 const Content = styled.div`
   flex-grow: 1;
 `
@@ -29,30 +23,28 @@ const Container = styled.div`
 const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Wrapper>
-        <Global
-          styles={css`
-            div {
-              background: ${theme.colors.whiteLinen};
-            }
-          `}
+      <Global
+        styles={css`
+          div {
+            background: ${theme.colors.whiteLinen};
+          }
+        `}
+      />
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+          rel="stylesheet"
         />
-        <Helmet>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-            rel="stylesheet"
-          />
-        </Helmet>
-        <Container>
-          <NavBar />
-          <Content>{children}</Content>
-          <Footer />
-        </Container>
-      </Wrapper>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
+      <Container>
+        <NavBar />
+        <Content>{children}</Content>
+        <Footer />
+      </Container>
     </ThemeProvider>
   )
 }

@@ -11,7 +11,7 @@ const colors = {
 const fontFamilies = {
   heading: "'Libre Baskerville', georgia, times, serif",
   links: "'Libre Baskerville', georgia, times, serif",
-  body: "Helvetica, Arial, sans-serif",
+  body: "'Open Sans', Helvetica, Arial, sans-serif",
 }
 
 export default {
@@ -21,6 +21,20 @@ export default {
       fontSize: "38px",
       fontWeight: 400,
       fontFamily: fontFamilies.heading,
+    },
+    trafalger: {
+      color: colors.charcoal,
+      fontSize: "24px",
+      fontWeight: 400,
+      fontFamily: fontFamilies.heading,
+    },
+    bodyCopy: {
+      color: colors.charcoal,
+      fontSize: "14px",
+      fontWeight: 400,
+      fontFamily: fontFamilies.body,
+      lineHeight: "180%",
+      marginBottom: "16px",
     },
     navlink: {
       color: colors.charcoal,

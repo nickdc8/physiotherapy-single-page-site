@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Helmet from "react-helmet"
 import Head from "../components/Head"
 import Hero from "../components/Hero"
+import Services from "../components/Services"
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
       </Helmet>
       <Head title="Home" />
       <Hero />
+      <Services />
     </Layout>
   )
 }
