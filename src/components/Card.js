@@ -30,7 +30,7 @@ const Card = ({ iconUrl, content, header }) => {
       <SubHeader textStyle="subHeader" textAlign="center" mb="12px">
         {header}
       </SubHeader>
-      <BodyCopy textStyle="bodyCopy" textAlign="center">
+      <BodyCopy textStyle="servicesCopy" textAlign="center">
         {content}
       </BodyCopy>
     </Container>

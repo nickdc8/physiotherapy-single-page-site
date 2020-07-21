@@ -4,13 +4,15 @@ import { Trafalger } from "../Typography"
 import aboutImage from "../images/alison-about.jpg"
 import styled from "@emotion/styled"
 import { BodyCopy } from "../Typography"
+import Line from "./Line"
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 0.74fr 1fr;
-  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
   padding: 0 16px;
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 90px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
@@ -18,8 +20,8 @@ const Container = styled.div`
 
 const ImageContainer = styled.div`
   display: flex;
-  margin-top: 60px;
-  justify-content: flex-end;
+  margin-top: 56px;
+  justify-content: flex-start;
   @media (max-width: 768px) {
     justify-content: center;
     margin-top: 0px;
@@ -27,15 +29,12 @@ const ImageContainer = styled.div`
 `
 const Image = styled.img`
   height: 260px;
-  border-radius: 4px;
+  border-radius: 2px;
 `
 
 const TextContainer = styled.div`
-  width: 60%;
-  padding: 0 0 0 32px;
   @media (max-width: 768px) {
     width: 100%;
-    text-align: center;
     padding: 0;
   }
 `
@@ -45,13 +44,11 @@ const About = () => {
     <div id="about">
       <Wrapper>
         <Container>
-          <ImageContainer>
-            <Image src={aboutImage} alt="" />
-          </ImageContainer>
           <TextContainer>
-            <Trafalger textStyle="trafalger" mb="30px">
+            <Trafalger textStyle="trafalger" mb="24px" textAlign="left">
               About me
             </Trafalger>
+            <Line align="0px 0 24px" />
             <BodyCopy textStyle="bodyCopy">
               Alison Stuart is a Chartered Physiotherapist with over 25 years of
               experience. She has a wealth of experience and has previously
@@ -66,6 +63,9 @@ const About = () => {
               and an amazing experience for me."
             </BodyCopy>
           </TextContainer>
+          <ImageContainer>
+            <Image src={aboutImage} alt="" />
+          </ImageContainer>
         </Container>
       </Wrapper>
     </div>

@@ -6,6 +6,7 @@ import { Trafalger } from "../Typography"
 import Card from "./Card"
 import careIcon from "../images/careIcon.svg"
 import carIcon from "../images/carIcon.svg"
+import Line from "./Line"
 
 const Container = styled.div`
   background: ${theme.colors.parchment};
@@ -18,7 +19,7 @@ const Grid = styled.div`
   grid-gap: 24px;
   margin: 32px auto;
   background: none;
-  max-width: 1000px;
+  max-width: 1100px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
@@ -29,9 +30,10 @@ const Services = () => {
     <div id="services">
       <Container>
         <Wrapper>
-          <Trafalger textStyle="trafalger" textAlign="center" mb="56px">
+          <Trafalger textStyle="trafalger" textAlign="center" mb="24px">
             Services
           </Trafalger>
+          <Line align="0 auto 60px" />
           <Grid>
             <Card
               iconUrl={carIcon}

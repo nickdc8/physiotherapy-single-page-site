@@ -1,9 +1,9 @@
 const colors = {
   sienna: "#CD874B",
   calico: "#E3BC9B",
-  parchment: "#F5E9DF",
+  parchment: "#FCEBDC",
   floralWhite: "#FFFDF6",
-  whiteLinen: "#FBF4EE",
+  whiteLinen: "#FDF1E7",
   charcoal: "#353535",
   dolphin: "#6E6D7A",
   white: "#fff",
@@ -19,13 +19,13 @@ export default {
   textStyles: {
     canon: {
       color: colors.charcoal,
-      fontSize: "38px",
+      fontSize: "40px",
       fontWeight: 400,
       fontFamily: fontFamilies.heading,
     },
     trafalger: {
       color: colors.charcoal,
-      fontSize: "24px",
+      fontSize: "28px",
       fontWeight: 400,
       fontFamily: fontFamilies.heading,
     },
@@ -35,13 +35,21 @@ export default {
       fontSize: "15px",
       lineHeight: "22px",
     },
-    bodyCopy: {
+    servicesCopy: {
       color: colors.charcoal,
       fontSize: "14px",
       fontWeight: 400,
       fontFamily: fontFamilies.body,
-      lineHeight: "170%",
+      lineHeight: "160%",
       marginBottom: "16px",
+    },
+    bodyCopy: {
+      color: colors.charcoal,
+      fontSize: "16px",
+      fontWeight: 400,
+      fontFamily: fontFamilies.body,
+      lineHeight: "170%",
+      marginBottom: "18px",
     },
     navlink: {
       color: colors.charcoal,
