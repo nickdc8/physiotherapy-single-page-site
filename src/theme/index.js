@@ -3,7 +3,7 @@ const colors = {
   calico: "#E3BC9B",
   parchment: "#F5E9DF",
   floralWhite: "#FFFDF6",
-  whiteLinen: "#FAF3ED",
+  whiteLinen: "#FBF4EE",
   charcoal: "#353535",
   dolphin: "#6E6D7A",
   white: "#fff",
