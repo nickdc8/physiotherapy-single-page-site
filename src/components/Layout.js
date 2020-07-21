@@ -14,7 +14,6 @@ const Wrapper = styled.div`
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  padding: 0 16px;
 `
 
 const Content = styled.div`
@@ -34,7 +33,7 @@ const Layout = ({ children }) => {
         <Global
           styles={css`
             div {
-              background: ${theme.colors.floralWhite};
+              background: ${theme.colors.whiteLinen};
             }
           `}
         />
@@ -44,7 +43,7 @@ const Layout = ({ children }) => {
             rel="stylesheet"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
             rel="stylesheet"
           />
         </Helmet>

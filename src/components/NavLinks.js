@@ -7,8 +7,13 @@ import theme from "../theme"
 const LinkStyle = styled(Link)`
   ${color}
   ${textStyle}
-  margin-left: 40px;
+  margin-left: 24px;
   padding: 0.25rem;
+  transition: 0.3s;
+
+  &:hover {
+    color: ${theme.colors.dolphin};
+  }
 `
 
 const activeStyles = {
@@ -16,12 +21,7 @@ const activeStyles = {
 }
 
 const NavLink = ({ children, to }) => (
-  <LinkStyle
-    color="charcoal"
-    textStyle="navlink"
-    to={to}
-    activeStyle={activeStyles}
-  >
+  <LinkStyle textStyle="navlink" to={to} activeStyle={activeStyles}>
     {children}
   </LinkStyle>
 )

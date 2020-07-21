@@ -8,9 +8,8 @@ const Nav = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
+  padding: 0 16px;
   height: 120px;
-  width: 100%;
 `
 
 const NavLinks = styled.ul`
@@ -24,7 +23,7 @@ const NavBar = () => {
   return (
     <Nav>
       <Link to="/">
-        <img src={logo} alt="" />
+        <img src={logo} alt="Alison Stuart Physiotherapy" />
       </Link>
       <NavLinks>
         <NavLink to="/">Home</NavLink>

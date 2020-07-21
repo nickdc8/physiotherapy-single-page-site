@@ -1,8 +1,10 @@
 const colors = {
   calico: "#E3BC9B",
+  parchment: "#F5E9DF",
   floralWhite: "#FFFDF6",
   whiteLinen: "#FAF3ED",
   charcoal: "#353535",
+  dolphin: "#6E6D7A",
   white: "#fff",
 }
 
@@ -16,10 +18,9 @@ export default {
   textStyles: {
     canon: {
       color: colors.charcoal,
-      fontSize: "24px",
-      fontWeight: 700,
+      fontSize: "38px",
+      fontWeight: 400,
       fontFamily: fontFamilies.heading,
-      marginTop: "20px",
     },
     navlink: {
       color: colors.charcoal,

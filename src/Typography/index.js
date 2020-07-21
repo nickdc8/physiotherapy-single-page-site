@@ -1,4 +1,4 @@
 import styled from "@emotion/styled"
-import { space, color, textStyle } from "styled-system"
+import { color, textStyle, space, typography } from "styled-system"
 
-export const Canon = styled.h1(textStyle, color, space)
+export const Canon = styled.h1(textStyle, color, space, typography)
