@@ -31,13 +31,13 @@ const cardContent = [
   },
   {
     id: 2,
-    iconUrl: "../../static/care.svg",
+    iconUrl: "../../static/carIcon.svg",
     content:
       "I provide home-based physiotherapy for the elderly, delivering comprehensive treatment and education for both patients and their wider family. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.",
   },
   {
     id: 3,
-    iconUrl: "../images/carIcon.svg",
+    iconUrl: "../../static/carIcon.svg",
     content:
       "Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
   },
