@@ -36,7 +36,7 @@ const Services = () => {
             <Card
               iconUrl={carIcon}
               header="Mobile Physio"
-              content="I provide mobile physiotherapy, meaning that you can undergo a treatment plan tailored to your needs from the comfort of your own home. Why not get in touch with us and save yourself the stress of travelling."
+              content="I provide mobile physiotherapy, meaning that you can save yourself the stress of travelling and undergo a treatment plan tailored to your needs from the comfort of your own home. "
             />
             <Card
               iconUrl={careIcon}
