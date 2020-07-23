@@ -53,18 +53,18 @@ const About = () => {
               I am a chartered and state registered physiotherapist with over 25
               years of experience, working both within the NHS, running my
               private practice and working as an expert disability qualified
-              member within the tribunal setting within court. My wealth of
-              experience has taken me in this direction lead me to sell my
-              business and allow me the time to dedicate to my expert legal work
-              and concentrate on a more bespoke individual client-based service.
+              member within the tribunal setting in court. My wealth of
+              experience lead me to sell my previous physiotherapy business
+              which allowed me to dedicate my time to expert legal work and to
+              concentrate on a more bespoke individual client-based service.
             </BodyCopy>
             <BodyCopy textStyle="bodyCopy">
               Following many years of working in the public and private sector
               providing expert physiotherapy within Cheshire and North Wales, I
               am aware of the high standards that must always be met. Taking
               care of the minor details, communicating and liaising with
-              clients, family and medical professionals provide a service that
-              is all-encompassing.
+              clients, family and medical professionals to provide a service
+              that is all-encompassing.
             </BodyCopy>
           </TextContainer>
           <ImageContainer>
