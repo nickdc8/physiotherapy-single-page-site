@@ -22,7 +22,7 @@ const Logos = styled.div`
 
 const Img = styled.img`
   @media (max-width: 548px) {
-    width: 40%;
+    width: 120%;
     margin-bottom: 40px;
   }
 `
