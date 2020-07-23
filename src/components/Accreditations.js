@@ -36,9 +36,27 @@ const Accreditations = () => {
     <Wrapper>
       <Container>
         <Logos>
-          <Img src={cspLogo} alt="" />
-          <Img src={hcpcLogo} alt="" />
-          <Img src={physioFirst} alt="" />
+          <a
+            href="https://www.csp.org.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img src={cspLogo} alt="" />
+          </a>
+          <a
+            href="https://www.hcpc-uk.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img src={hcpcLogo} alt="" />
+          </a>
+          <a
+            href="https://www.physiofirst.org.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img src={physioFirst} alt="" />
+          </a>
         </Logos>
       </Container>
     </Wrapper>
