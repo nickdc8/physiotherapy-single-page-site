@@ -50,17 +50,21 @@ const About = () => {
         <Container>
           <TextContainer>
             <BodyCopy textStyle="bodyCopy">
-              Alison Stuart is a Chartered Physiotherapist with over 25 years of
-              experience. She has a wealth of experience and has previously
-              worked for the NHS both in adult and paediatric care, at Stoke
-              Mandeville hospital in their specialist spinal injuries unit as
-              well as other private practices and professional sports teams.
+              I am a chartered and state registered physiotherapist with over 25
+              years of experience, working both within the NHS, running my
+              private practice and working as an expert disability qualified
+              member within the tribunal setting within court. My wealth of
+              experience has taken me in this direction lead me to sell my
+              business and allow me the time to dedicate to my expert legal work
+              and concentrate on a more bespoke individual client-based service.
             </BodyCopy>
             <BodyCopy textStyle="bodyCopy">
-              Her most diverse experience was a time working for a professional
-              basketball team. "I worked for five years with the Chester Jets.
-              We travelled all over Europe, and I have to say it was great fun
-              and an amazing experience for me."
+              Following many years of working in the public and private sector
+              providing expert physiotherapy within Cheshire and North Wales, I
+              am aware of the high standards that must always be met. Taking
+              care of the minor details, communicating and liaising with
+              clients, family and medical professionals provide a service that
+              is all-encompassing.
             </BodyCopy>
           </TextContainer>
           <ImageContainer>

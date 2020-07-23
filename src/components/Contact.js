@@ -44,8 +44,8 @@ const Contact = () => {
             <Info>
               <BodyCopy textStyle="bodyCopy">
                 To arrange an appointment, contact me via the contact form, send
-                me an <a href="mailto:alision@alisonstuarttherapy.com">email</a>{" "}
-                or call me on <a href="tel:+44 7966 111 111">07966 111 111</a>.
+                me an <a href="mailto:alisonstuart@hotmail.co.uk">email</a> or
+                call me on <a href="tel:+447976437246">07976 437 246</a>.
               </BodyCopy>
             </Info>
           </Grid>

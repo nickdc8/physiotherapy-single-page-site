@@ -5,6 +5,7 @@ import { Trafalger } from "../Typography"
 import Card from "./Card"
 import careIcon from "../images/careIcon.svg"
 import carIcon from "../images/carIcon.svg"
+import homeIcon from "../images/homeIcon.svg"
 import Line from "./Line"
 
 const Container = styled.div`
@@ -44,9 +45,9 @@ const Services = () => {
               content="I also offer physiotherapy for the elderly in residential and nursing homes along with sheltered accommodations, specialising in both individual physiotherapy and group exercise classes."
             />
             <Card
-              iconUrl={careIcon}
-              header="Another Service Here"
-              content="Justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+              iconUrl={homeIcon}
+              header="Private Clinic"
+              content="If you would prefer, you can access my professional clinic that I run from home, where I can treat people of all ages in a safe private environment."
             />
           </Grid>
         </Wrapper>

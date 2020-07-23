@@ -27,6 +27,7 @@ const NavLinks = styled.ul`
     margin-top: 32px;
     width: 240px;
     justify-content: space-between;
+    font-size: 24px;
   }
 `
 

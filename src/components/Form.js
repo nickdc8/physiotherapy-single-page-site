@@ -85,7 +85,7 @@ const ContactForm = () => {
     setServerState({ submitting: true })
     axios({
       method: "post",
-      url: "https://formspree.io/change_me",
+      url: "https://formspree.io/xgenryel",
       data: new FormData(form),
     })
       .then(r => {

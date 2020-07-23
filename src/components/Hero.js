@@ -32,23 +32,25 @@ const Container = styled.div`
 
 const Subhead = styled.p`
   text-align: center;
-  line-height: 1.6rem;
+  line-height: 1.5rem;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-family: ${theme.fonts.sansSerif};
   padding: 0 16px;
+  max-width: 600px;
+  letter-spacing: 0.8px;
 `
 
 const Hero = () => {
   return (
     <Wrapper>
       <Container>
-        <Canon mt="20px" mb="16px" textStyle="canon" textAlign="center">
+        <Canon mt="24px" mb="24px" textStyle="canon" textAlign="center">
           Your health in expert hands
         </Canon>
         <Subhead>
-          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-          vestibulum.
+          Providing a quality service that places a primary emphasis on bespoke
+          and professional physiotherapy for people of all ages.
         </Subhead>
       </Container>
     </Wrapper>

@@ -6,6 +6,7 @@ import Hero from "../components/Hero"
 import Services from "../components/Services"
 import About from "../components/About"
 import Contact from "../components/Contact"
+import Accreditations from "../components/Accreditations"
 
 const IndexPage = () => {
   return (
@@ -21,6 +22,7 @@ const IndexPage = () => {
       <Services />
       <About />
       <Contact />
+      <Accreditations />
     </Layout>
   )
 }
