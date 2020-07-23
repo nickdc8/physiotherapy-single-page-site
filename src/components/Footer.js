@@ -15,11 +15,12 @@ const Container = styled.div`
 `
 
 const Footer = () => {
+  const year = new Date().getFullYear()
   return (
     <Container>
       <Wrapper>
         <BodyCopy textStyle="copyright" textAlign="center">
-          © Alison Stuart Physiotherapy 2020
+          © Alison Stuart Physiotherapy {year}
         </BodyCopy>
       </Wrapper>
     </Container>
