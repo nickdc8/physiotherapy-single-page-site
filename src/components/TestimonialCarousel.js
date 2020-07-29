@@ -27,13 +27,8 @@ const TestimonialCarousel = () => {
           sport-related, some work-related. During all my consultations and
           treatments whatever the severity of my condition, I have always found
           Ali to be honest and professional. She is extremely knowledgeable and
-          experienced and always listens to you.
-        </Trafalger>
-      </Container>
-      <Container>
-        <Trafalger textStyle="testimonial" pb="40px">
-          Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit
-          non mi porta gravida at eget metus. Donec sed odio dui.
+          experienced and always listens to you. Ali will always go that extra
+          mile for her patients and you never feel rushed out of the door.
         </Trafalger>
       </Container>
     </Carousel>
