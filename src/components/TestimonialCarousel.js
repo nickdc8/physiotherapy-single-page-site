@@ -18,7 +18,7 @@ const Name = styled(BodyCopy)`
 `
 const TestimonialCarousel = () => {
   return (
-    <Carousel infiniteLoop showThumbs={false}>
+    <Carousel infiniteLoop showThumbs={false} swipeable={false}>
       <Container>
         <Trafalger textStyle="testimonial" pb="40px">
           Alison is an amazing therapist. I have been going to her for treatment
