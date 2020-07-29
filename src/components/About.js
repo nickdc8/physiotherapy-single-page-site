@@ -51,20 +51,17 @@ const About = () => {
           <TextContainer>
             <BodyCopy textStyle="bodyCopy">
               I am a chartered and state registered physiotherapist with over 25
-              years of experience, working both within the NHS, running my
-              private practice and working as an expert disability qualified
-              member within the tribunal setting in court. My wealth of
-              experience lead me to sell my previous physiotherapy business
-              which allowed me to dedicate my time to expert legal work and to
-              concentrate on a more bespoke individual client-based service.
+              years of experience working both within in NHS and developing and
+              running my own private practice. Having sold my business last
+              year, I can now dedicate my time to expert legal work and
+              providing a more bespoke individual client based service to my
+              patients.
             </BodyCopy>
             <BodyCopy textStyle="bodyCopy">
-              Following many years of working in the public and private sector
-              providing expert physiotherapy within Cheshire and North Wales, I
-              am aware of the high standards that must always be met. Taking
-              care of the minor details, communicating and liaising with
-              clients, family and medical professionals to provide a service
-              that is all-encompassing.
+              With extensive experience of running my private practice treating
+              clients from Cheshire and North Wales I provide a first class
+              service communicating and liaising with client, family and medical
+              professionals to provide a service that is all encompassing.
             </BodyCopy>
           </TextContainer>
           <ImageContainer>

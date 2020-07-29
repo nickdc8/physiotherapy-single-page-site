@@ -41,7 +41,7 @@ const Services = () => {
             />
             <Card
               iconUrl={careIcon}
-              header="Elderly & Children Care"
+              header="Elderly Care"
               content="I also offer physiotherapy for the elderly in residential and nursing homes along with sheltered accommodations, specialising in both individual physiotherapy and group exercise classes."
             />
             <Card

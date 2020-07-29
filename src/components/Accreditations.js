@@ -12,7 +12,7 @@ const Logos = styled.div`
   align-items: center;
   justify-items: center;
   padding: 0 16px;
-  max-width: 800px;
+  max-width: 700px;
   margin: 140px auto 120px;
 
   @media (max-width: 548px) {
