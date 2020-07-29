@@ -26,7 +26,7 @@ export default {
     },
     trafalger: {
       color: colors.charcoal,
-      fontSize: "28px",
+      fontSize: "26px",
       fontWeight: 400,
       fontFamily: fontFamilies.heading,
       lineHeight: "40px",
@@ -34,7 +34,7 @@ export default {
     testimonial: {
       color: colors.charcoal,
       fontFamily: fontFamilies.heading,
-      fontSize: "18px",
+      fontSize: "16px",
       lineHeight: "30px",
       fontWeight: 400,
     },

@@ -5,25 +5,28 @@ import { Carousel } from "react-responsive-carousel"
 import { Trafalger } from "../Typography"
 
 const Container = styled.div`
-  margin: 0 80px;
+  margin: 0 auto;
+  max-width: 700px;
 `
 const TestimonialCarousel = () => {
   return (
-    <Carousel infiniteLoop>
+    <Carousel infiniteLoop showThumbs={false}>
       <Container>
         <Trafalger textStyle="testimonial" pb="40px">
-          Donec sed odio dui. Curabitur blandit tempus porttitor. Etiam porta
-          sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
-          vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas
-          eget quam. Nulla vitae elit libero, a pharetra augue. Nullam quis
-          risus eget urna mollis ornare vel eu leo.
+          Alison is an amazing therapist. I have been going to her for treatment
+          to my back for many years, and she has always sorted the problem out.
+          I recently had a cruciate ligament operated on my arm. And without her
+          help, I would still be in pain. She is very professional but also
+          extremely kind. I would highly recommend her.
         </Trafalger>
       </Container>
       <Container>
         <Trafalger textStyle="testimonial" pb="40px">
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-          Cras mattis consectetur purus sit amet fermentum. Aenean lacinia
-          bibendum nulla sed consectetur.
+          I have seen Ali over the last four years with various complaints, some
+          sport-related, some work-related. During all my consultations and
+          treatments whatever the severity of my condition, I have always found
+          Ali to be honest and professional. She is extremely knowledgeable and
+          experienced and always listens to you.
         </Trafalger>
       </Container>
       <Container>
