@@ -29,6 +29,14 @@ export default {
       fontSize: "28px",
       fontWeight: 400,
       fontFamily: fontFamilies.heading,
+      lineHeight: "40px",
+    },
+    testimonial: {
+      color: colors.charcoal,
+      fontFamily: fontFamilies.heading,
+      fontSize: "18px",
+      lineHeight: "30px",
+      fontWeight: 400,
     },
     subHeader: {
       color: colors.charcoal,
