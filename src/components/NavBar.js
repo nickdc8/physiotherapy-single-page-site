@@ -24,10 +24,18 @@ const Nav = styled.div`
 const NavLinks = styled.ul`
   display: flex;
   @media (max-width: 520px) {
-    margin-top: 32px;
-    width: 240px;
+    margin-top: 16px;
+    width: 100%;
     justify-content: space-between;
     font-size: 24px;
+    padding: 0 32px;
+  }
+  @media (max-width: 320px) {
+    margin-top: 16px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 0 8px;
   }
 `
 

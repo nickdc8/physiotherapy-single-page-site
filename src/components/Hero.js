@@ -23,6 +23,7 @@ const Container = styled.div`
 
   @media (max-width: 768px) {
     background-position: -145px 0px;
+    padding: 0 16px;
   }
   @media (max-width: 414px) {
     background-position: -315px 0px;
@@ -34,7 +35,7 @@ const Subhead = styled.p`
   text-align: center;
   line-height: 1.5rem;
   font-weight: 300;
-  font-size: 1.08rem;
+  font-size: 1rem;
   font-family: ${theme.fonts.sansSerif};
   padding: 0 16px;
   max-width: 600px;

@@ -21,6 +21,7 @@ const Grid = styled.div`
   max-width: 1100px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    padding: 16px;
   }
 `
 

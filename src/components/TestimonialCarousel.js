@@ -7,6 +7,7 @@ import { Trafalger } from "../Typography"
 const Container = styled.div`
   margin: 0 auto;
   max-width: 700px;
+  padding: 0 15px;
 `
 const TestimonialCarousel = () => {
   return (

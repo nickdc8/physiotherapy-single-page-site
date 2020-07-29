@@ -18,6 +18,7 @@ const Grid = styled.div`
   grid-gap: 40px;
   @media (max-width: 772px) {
     grid-template-columns: 1fr;
+    padding: 16px;
   }
 `
 
