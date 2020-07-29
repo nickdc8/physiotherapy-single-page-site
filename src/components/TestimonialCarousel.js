@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import "react-responsive-carousel/lib/styles/carousel.css"
+import "../styles/carousel.css"
 import styled from "@emotion/styled"
 import { Carousel } from "react-responsive-carousel"
 import { Trafalger } from "../Typography"
