@@ -1,8 +1,8 @@
-import React, { Component } from "react"
+import React from "react"
 import "../styles/carousel.css"
 import styled from "@emotion/styled"
 import { Carousel } from "react-responsive-carousel"
-import { Trafalger, BodyCopy } from "../Typography"
+import { Trafalger } from "../Typography"
 import theme from "../theme"
 
 const Container = styled.div`
@@ -11,7 +11,7 @@ const Container = styled.div`
   padding: 0 15px;
 `
 
-const Name = styled(BodyCopy)`
+const Name = styled.p`
   color: ${theme.colors.sienna};
   font-family: ${theme.fonts.serif};
   margin-bottom: 48px;
@@ -25,7 +25,8 @@ const TestimonialCarousel = () => {
           to my back for many years, and she has always sorted the problem out.
           I recently had a cruciate ligament operated on my arm. And without her
           help, I would still be in pain. She is very professional but also
-          extremely kind. I would highly recommend her.
+          extremely kind.
+          <br />I would highly recommend her.
         </Trafalger>
         <Name>S Webb</Name>
       </Container>
