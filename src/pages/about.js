@@ -9,7 +9,7 @@ const About = () => {
       <Helmet>
         <meta
           name="description"
-          content="I am a chartered and state registered physiotherapist with over 25 years of experience working both within the NHS and developing and running my own private practice."
+          content="I am a chartered and state registered physiotherapist treating clients from Cheshire and North Wales area. I have over 25 years of experience working both within the NHS and developing and running my own private practice."
         />
       </Helmet>
       <Head title="About Me" />
