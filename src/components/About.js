@@ -51,7 +51,7 @@ const About = () => {
           <TextContainer>
             <BodyCopy textStyle="bodyCopy">
               I am a chartered and state registered physiotherapist with over 25
-              years of experience working both within in NHS and developing and
+              years of experience working both within the NHS and developing and
               running my own private practice. Having sold my business last
               year, I can now dedicate my time to expert legal work and
               providing a more bespoke individual client based service to my
