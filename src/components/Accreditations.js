@@ -40,6 +40,7 @@ const Accreditations = () => {
             href="https://www.csp.org.uk/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to Chartered to Society of Physiotherapy"
           >
             <Img src={cspLogo} alt="" />
           </a>
@@ -47,6 +48,7 @@ const Accreditations = () => {
             href="https://www.hcpc-uk.org/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to Health and Care Professions Council"
           >
             <Img src={hcpcLogo} alt="" />
           </a>
@@ -54,6 +56,7 @@ const Accreditations = () => {
             href="https://www.physiofirst.org.uk/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to Physio First"
           >
             <Img src={physioFirst} alt="" />
           </a>

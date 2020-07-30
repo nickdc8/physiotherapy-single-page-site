@@ -36,7 +36,7 @@ const TextArea = styled.textarea`
 `
 
 const Button = styled.button`
-  background: #a76635;
+  background: #a9632d;
   display: inline-block;
   color: white;
   padding: 10px 16px;
@@ -51,7 +51,7 @@ const Button = styled.button`
   border: none;
   cursor: pointer;
   :hover {
-    background: ${theme.colors.sienna};
+    background: #c57335;
   }
 `
 

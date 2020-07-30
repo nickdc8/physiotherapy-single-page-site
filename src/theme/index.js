@@ -1,5 +1,5 @@
 const colors = {
-  sienna: "#CD874B",
+  sienna: "#A9632D",
   calico: "#E3BC9B",
   parchment: "#FCEBDC",
   floralWhite: "#FFFDF6",
