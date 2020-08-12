@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Alison Stuart Physiotherapy`,
+        short_name: `Physiotherapy`,
         start_url: `/`,
         background_color: `#F5E9DF`,
         theme_color: `#CD874C`,
