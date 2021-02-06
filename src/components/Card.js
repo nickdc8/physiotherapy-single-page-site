@@ -15,6 +15,7 @@ const Container = styled.div`
 
 const Image = styled.img`
   margin: 16px 0 16px;
+  height: 50px;
 `
 
 const SubHeader = styled.h2`
