@@ -15,7 +15,7 @@ const fontFamilies = {
   body: "'Open Sans', Helvetica, Arial, sans-serif",
 }
 
-export default {
+const theme = {
   textStyles: {
     canon: {
       color: colors.charcoal,
@@ -85,3 +85,5 @@ export default {
       '-apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif',
   },
 }
+
+export default theme
