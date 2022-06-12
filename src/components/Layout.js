@@ -1,6 +1,6 @@
 import React from "react"
-import NavBar from "../components/NavBar"
-import Footer from "../components/Footer"
+// import NavBar from "../components/NavBar"
+// import Footer from "../components/Footer"
 import styled from "@emotion/styled"
 import Helmet from "react-helmet"
 import { Global, css } from "@emotion/react"
@@ -10,9 +10,9 @@ import theme from "../theme"
 import "../styles/styles.css"
 import "../styles/reset.css"
 
-const Content = styled.div`
-  flex-grow: 1;
-`
+// const Content = styled.div`
+//   flex-grow: 1;
+// `
 
 const Container = styled.div`
   display: flex;
