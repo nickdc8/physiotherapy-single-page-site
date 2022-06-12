@@ -41,9 +41,9 @@ const Layout = ({ children }) => {
         />
       </Helmet>
       <Container>
-        <NavBar />
-        <Content>{children}</Content>
-        <Footer />
+        {/* <NavBar /> */}
+        {/* <Content>{children}</Content> */}
+        {/* <Footer /> */}
       </Container>
     </ThemeProvider>
   )

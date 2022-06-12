@@ -25,12 +25,12 @@ const IndexPage = () => {
         />
       </Helmet>
       <Head title="Home" />
-      <Hero />
+      {/* <Hero />
       <Services />
       <About />
       <Contact />
       <Testimonials />
-      <Accreditations />
+      <Accreditations /> */}
     </Layout>
   )
 }
