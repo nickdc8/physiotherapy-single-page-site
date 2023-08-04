@@ -1,4 +1,6 @@
-# Physiotherapy Website 
+# Physiotherapy Website
+
+![Project Preview](https://github.com/nickdc8/physiotherapy-single-page-site/blob/master/readme-img.png)
 
 This is a Gatsby website created for a client in the field of physiotherapy. It is no longer in use and is now available for demonstration purposes. You are welcome to use this code under the Creative Commons licence or whatever it is.
 
