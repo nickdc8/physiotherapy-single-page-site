@@ -20,7 +20,7 @@ const Footer = () => {
     <Container>
       <Wrapper>
         <BodyCopy textStyle="copyright" textAlign="center">
-          © Alison Stuart Physiotherapy {year}
+          © Physiotherapy Site {year}
         </BodyCopy>
       </Wrapper>
     </Container>
