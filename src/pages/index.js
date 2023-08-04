@@ -14,10 +14,6 @@ const IndexPage = () => {
     <Layout>
       <Helmet>
         <meta
-          name="google-site-verification"
-          content="apaIIhfXPOxdvp2oq_BoKuAAxXDGxOPhePehC-lbikU"
-        />
-        <meta
           name="description"
           content="I am a chartered and state registered physiotherapist with over 25
               years of experience working both within the NHS and developing and
