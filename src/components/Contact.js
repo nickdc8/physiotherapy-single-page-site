@@ -46,7 +46,7 @@ const Contact = () => {
               <BodyCopy textStyle="bodyCopy">
                 To arrange an appointment, contact me via the contact form, send
                 me an <a href="mailto:alisonstuart@hotmail.co.uk">email</a> or
-                call me on <a href="tel:+447976437246">07976 437 246</a>.
+                call me on <a href="tel:+44797888888">07976 888 888</a>.
               </BodyCopy>
             </Info>
           </Grid>
