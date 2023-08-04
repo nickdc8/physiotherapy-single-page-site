@@ -1,4 +1,4 @@
-import React from "react"
+limport React from "react"
 import styled from "@emotion/styled"
 import Wrapper from "../components/Wrapper"
 import { Trafalger, BodyCopy } from "../Typography"
@@ -45,7 +45,7 @@ const Contact = () => {
             <Info>
               <BodyCopy textStyle="bodyCopy">
                 To arrange an appointment, contact me via the contact form, send
-                me an <a href="mailto:alisonstuart@hotmail.co.uk">email</a> or
+                me an <a href="mailto:email@email.co.uk">email</a> or
                 call me on <a href="tel:+44797888888">07976 888 888</a>.
               </BodyCopy>
             </Info>
