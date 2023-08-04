@@ -43,7 +43,11 @@ const NavBar = () => {
   return (
     <Nav>
       <Link to="/">
-        <img src={logo} alt="Alison Stuart Physiotherapy" />
+        <img
+          src={logo}
+          alt="Wellmotion Physiotherapy"
+          style={{ width: "180px", height: "auto" }}
+        />
       </Link>
       <NavLinks>
         <NavLink to="/#services">Services</NavLink>

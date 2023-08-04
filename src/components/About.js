@@ -1,7 +1,7 @@
 import React from "react"
 import Wrapper from "./Wrapper"
 import { Trafalger } from "../Typography"
-import aboutImage from "../images/alison-about.png"
+import aboutImage from "../images/about-image.jpeg"
 import styled from "@emotion/styled"
 import { BodyCopy } from "../Typography"
 import Line from "./Line"
@@ -28,7 +28,7 @@ const ImageContainer = styled.div`
 `
 const Image = styled.img`
   height: 260px;
-  border-radius: 2px;
+  border-radius: 20px;
 `
 
 const TextContainer = styled.div`
@@ -50,18 +50,18 @@ const About = () => {
         <Container>
           <TextContainer>
             <BodyCopy textStyle="bodyCopy">
-              I am a chartered and state registered physiotherapist with over 25
-              years of experience working both within the NHS and developing and
-              running my own private practice. Having sold my business last
-              year, I can now dedicate my time to expert legal work and
-              providing a more bespoke individual client based service to my
-              patients.
+              I am a professional with over 25 years of experience in my field,
+              working both within different settings and running my own
+              ventures. Having gained diverse experiences throughout my career,
+              I am now focused on providing expert services and a personalized
+              approach to my clients.
             </BodyCopy>
             <BodyCopy textStyle="bodyCopy">
-              With extensive experience of running my private practice treating
-              clients from Cheshire and North Wales I provide a first class
-              service communicating and liaising with client, family and medical
-              professionals to provide a service that is all encompassing.
+              With extensive experience in serving a wide range of clients, I
+              aim to deliver a top-notch service by effectively communicating
+              and collaborating with individuals, families, and relevant
+              professionals, ensuring a comprehensive and tailored experience
+              for all.
             </BodyCopy>
           </TextContainer>
           <ImageContainer>

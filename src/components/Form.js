@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import axios from "axios"
 import styled from "@emotion/styled"
 import theme from "../theme"
 
@@ -70,30 +69,17 @@ const ContactForm = () => {
     submitting: false,
     status: null,
   })
-  const handleServerResponse = (ok, msg, form) => {
-    setServerState({
-      submitting: false,
-      status: { ok, msg },
-    })
-    if (ok) {
-      form.reset()
-    }
-  }
+
   const handleOnSubmit = e => {
     e.preventDefault()
-    const form = e.target
     setServerState({ submitting: true })
-    axios({
-      method: "post",
-      url: "https://formspree.io/xgenryel",
-      data: new FormData(form),
-    })
-      .then(r => {
-        handleServerResponse(true, "Thanks! Your form has been submitted", form)
+    // Mock API call (no actual submission)
+    setTimeout(() => {
+      setServerState({
+        submitting: false,
+        status: { ok: true, msg: "Thanks! Your form has been submitted" },
       })
-      .catch(r => {
-        handleServerResponse(false, r.response.data.error, form)
-      })
+    }, 1500)
   }
 
   return (

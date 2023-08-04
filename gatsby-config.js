@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Alison Stuart Physiotherapy`,
-    description: `description here`,
-    author: `gatsbyjs`,
+    title: `Physiotherapy Clinic`,
+    description: `Description of the physiotherapy clinic here`,
+    author: `Your Name`,
   },
   plugins: [
     `gatsby-plugin-emotion`,
@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Alison Stuart Physiotherapy`,
-        short_name: `Physiotherapy`,
+        name: `Physiotherapy Clinic`,
+        short_name: `Physio Clinic`,
         start_url: `/`,
         background_color: `#F5E9DF`,
         theme_color: `#CD874C`,

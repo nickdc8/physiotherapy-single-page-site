@@ -13,12 +13,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Helmet>
-        <meta
-          name="description"
-          content="I am a chartered and state registered physiotherapist with over 25
-              years of experience working both within the NHS and developing and
-              running my own private practice in the Cheshire, Mold and North Wales area."
-        />
+        <meta name="description" content="" />
       </Helmet>
       <Head title="Home" />
       <Hero />

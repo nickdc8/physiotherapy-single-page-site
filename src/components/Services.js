@@ -37,18 +37,18 @@ const Services = () => {
           <Grid>
             <Card
               iconUrl={carIcon}
-              header="Mobile Physio"
-              content="I provide mobile physiotherapy, meaning that you can save yourself the stress of travelling and undergo a treatment plan tailored to your needs from the comfort of your own home. "
+              header="Mobile Physiotherapy"
+              content="Our mobile physiotherapy service brings treatment tailored to your needs directly to your doorstep, saving you the stress of travel. Experience personalized care from the comfort of your own home."
             />
             <Card
               iconUrl={careIcon}
-              header="Elderly Care"
-              content="I also offer physiotherapy for the elderly in residential and nursing homes along with sheltered accommodations, specialising in both individual physiotherapy and group exercise classes."
+              header="Elderly Physiotherapy"
+              content="We specialize in providing physiotherapy for the elderly in residential and nursing homes, as well as sheltered accommodations. Our services include individualized treatments and group exercise classes."
             />
             <Card
               iconUrl={homeIcon}
-              header="Private Clinic"
-              content="If you would prefer, you can access my professional clinic that I run from home, where I can treat people of all ages in a safe private environment."
+              header="Private Clinic Sessions"
+              content="Visit our professional clinic, located in a safe and private environment. We cater to people of all ages, offering top-notch care and treatment for various conditions."
             />
           </Grid>
         </Wrapper>
